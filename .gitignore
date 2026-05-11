@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+.env
+.env.local
+*.pem
+*.key
+
+*.tmp
+*.bak
+*.swp
+*~

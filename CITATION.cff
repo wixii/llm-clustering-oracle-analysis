@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce travail, merci de citer comme indiqué ci-dessous."
+title: "LLM as a Clustering Oracle: Necessary at Every Stage?"
+abstract: >-
+  Analyse critique et reproduction partielle de Viswanathan et al. (2024)
+  « Large Language Models Enable Few-Shot Clustering » (TACL).
+  Quatre évaluations complémentaires testent la robustesse causale des gains
+  attribués au LLM aux trois stades du pipeline (avant, pendant, après le
+  clustering).
+type: software
+authors:
+  - family-names: Zghrata
+    given-names: Wissal
+    affiliation: Université Paris Cité, M1 ML for Data Science
+  - family-names: Zeidan
+    given-names: Rim
+    affiliation: Université Paris Cité, M1 ML for Data Science
+  - family-names: Akil
+    given-names: Waël
+    affiliation: Université Paris Cité, M1 ML for Data Science
+date-released: "2026-05-01"
+keywords:
+  - text-clustering
+  - large-language-models
+  - semi-supervised-learning
+  - pckmeans
+  - critical-analysis
+  - reproducibility
+license: MIT
+references:
+  - type: article
+    title: "Large Language Models Enable Few-Shot Clustering"
+    authors:
+      - family-names: Viswanathan
+        given-names: Vijay
+      - family-names: Gashteovski
+        given-names: Kiril
+      - family-names: Lawrence
+        given-names: Carolin
+      - family-names: Wu
+        given-names: Tongshuang
+      - family-names: Neubig
+        given-names: Graham
+    journal: "Transactions of the Association for Computational Linguistics"
+    volume: 12
+    start: 321
+    end: 333
+    year: 2024
+    doi: "10.1162/tacl_a_00648"
